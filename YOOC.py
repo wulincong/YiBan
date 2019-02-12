@@ -32,7 +32,7 @@ print(s)
 try:
     copy_s = s  #复制一份，防止报错丢失文件内容
     s = spl(s)
-    print('读取到%d个题目'%len(s))
+    print('识别到%d个题目'%len(s))
     answer = input('请输入答案>>>')
     assert len(answer) == len(s)  #强制答案长度等于文件题目数量
     lis = []
