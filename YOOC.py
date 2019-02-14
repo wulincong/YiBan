@@ -51,3 +51,4 @@ except Exception as e:  #如果报错，执行复写，防止文件内容丢失
     f.write(copy_s)
     f.close()
     print(e)
+#可以增加多编码文件支持
